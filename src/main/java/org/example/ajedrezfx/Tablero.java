@@ -28,10 +28,8 @@ public class Tablero implements Initializable {
         tablero[0][2] = new Alfil(true);
         tablero[0][3] = new Dama(true);
         tablero[0][4] = new Rey(true);
-        //tablero[0][5] = new Alfil(true);
-        //tablero[0][6] = new Caballo(true);
-        tablero[3][5] = new Alfil(true);
-        tablero[3][6] = new Caballo(true);
+        tablero[0][5] = new Alfil(true);
+        tablero[0][6] = new Caballo(true);
         tablero[0][7] = new Torre(true);
         //piezas blancas
         tablero[7][0] = new Torre(false);
@@ -39,10 +37,8 @@ public class Tablero implements Initializable {
         tablero[7][2] = new Alfil(false);
         tablero[7][3] = new Dama(false);
         tablero[7][4] = new Rey(false);
-        //tablero[7][5] = new Alfil(false);
-        //tablero[7][6] = new Caballo(false);
-        tablero[5][5] = new Alfil(false);
-        tablero[5][6] = new Caballo(false);
+        tablero[7][5] = new Alfil(false);
+        tablero[7][6] = new Caballo(false);
         tablero[7][7] = new Torre(false);
         for (int i = 0; i < tablero.length; i++) {
             for (int j = 0; j < tablero.length; j++) {
